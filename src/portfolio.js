@@ -171,7 +171,7 @@ const workExperiences = {
       role: "Web Developer",
       company: "애자일그로스",
       companylogo: require("./assets/images/agile.jpg"),
-      date: "2021.12 ~ 2022.06 (회사 재정난)",
+      date: "2021.12 ~ 2022.06",
       desc: "spring boot를 이용하여 기업 내 플랫폼 서비스를 담당하였습니다.",
       descBullets: [
         "플랫폼 주요 캠페인 중 하나를 담당하여 구현 및 서비스 진행",
@@ -232,60 +232,31 @@ const bigProjects = {
 // Achievement Section
 // Include certificates, talks etc
 
-// const achievementSection = {
-//   title: emoji("Achievements And Certifications 🏆 "),
-//   subtitle:
-//     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+const achievementSection = {
+  title: emoji("Certificate 🏆 "),
+  // subtitle:
+  //   "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
-//   achievementsCards: [
-//     {
-//       title: "Google Code-In Finalist",
-//       subtitle:
-//         "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-//       image: require("./assets/images/codeInLogo.webp"),
-//       footerLink: [
-//         {
-//           name: "Certification",
-//           url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-//         },
-//         {
-//           name: "Award Letter",
-//           url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-//         },
-//         {
-//           name: "Google Code-in Blog",
-//           url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-//         }
-//       ]
-//     },
-//     {
-//       title: "Google Assistant Action",
-//       subtitle:
-//         "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-//       image: require("./assets/images/googleAssistantLogo.webp"),
-//       footerLink: [
-//         {
-//           name: "View Google Assistant Action",
-//           url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-//         }
-//       ]
-//     },
+  achievementsCards: [
+    {
+      title: "운전면허증",
+      subtitle: "1종보통",
+      image: require("./assets/images/googleAssistantLogo.webp")
+    },
+    {
+      title: "정보처리산업기사",
+      subtitle: "학점은행제를 통해 초대졸 자격을 충족해 취득하였습니다.",
+      image: require("./assets/images/information.jpg")
+    },
 
-//     {
-//       title: "PWA Web App Developer",
-//       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-//       image: require("./assets/images/pwaLogo.webp"),
-//       footerLink: [
-//         {name: "Certification", url: ""},
-//         {
-//           name: "Final Project",
-//           url: "https://pakistan-olx-1.firebaseapp.com/"
-//         }
-//       ]
-//     }
-//   ],
-//   display: true // Set false to hide this section, defaults to true
-// };
+    {
+      title: "컴퓨터 활용능력 1급",
+      subtitle: "학점 및 액세스를 활용하기 위해 취득하였습니다.",
+      image: require("./assets/images/computer.png")
+    }
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
 
 // Blogs Section
 
@@ -368,7 +339,7 @@ export {
   workExperiences,
   openSource,
   bigProjects,
-  // achievementSection,
+  achievementSection,
   // blogSection,
   // talkSection,
   // podcastSection,
