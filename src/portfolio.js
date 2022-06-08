@@ -23,8 +23,8 @@ const greeting = {
   username: "Kimminki",
   title: "안녕하세요 김민기입니다.",
   subTitle: emoji("이곳에 내 소개를 작성해야 해요"),
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+  // resumeLink:
+  //   "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -33,6 +33,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/Kimmingki",
   gmail: "a01050919568@gmail.com",
+  blog: "https://magicmk.tistory.com/",
   // gitlab: "https://gitlab.com/saadpasta",
   // facebook: "https://www.facebook.com/saad.pasta7",
   // medium: "https://medium.com/@saadpasta",
@@ -121,7 +122,7 @@ const educationInfo = {
     {
       schoolName: "남대전 고등학교",
       logo: require("./assets/images/highschool.jfif"),
-      // subHeader: "Master of Science in Computer Science",
+      subHeader: "이과",
       duration: "2014.03 ~ 2016.02"
       // desc: "Participated in the research of XXX and published 3 papers.",
       // descBullets: [
@@ -132,7 +133,7 @@ const educationInfo = {
     {
       schoolName: "학점은행제",
       logo: require("./assets/images/school.png"),
-      subHeader: "학점은행제를 통해 학사과정을 밟고 있습니다.",
+      subHeader: "학점은행제를 통해 컴퓨터공학과 학사과정을 밟고 있습니다.",
       duration: "2021.07 ~ 2023.02(예정)"
       // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
@@ -178,17 +179,10 @@ const workExperiences = {
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
+      role: "현장 엔지니어",
+      company: "넷식스솔루션",
       companylogo: require("./assets/images/quoraLogo.png"),
       date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
   ]
