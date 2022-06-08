@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "99e850c9a30eba1b3db243f748506eb9",
+    "revision": "ac1b19007db7782c95bd13a2e92ce4ec",
     "url": "/index.html"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/4.e91a4b36.chunk.css"
   },
   {
-    "revision": "2b600718c460bc5a57f1",
+    "revision": "c6e6f884023aac3002a7",
     "url": "/static/css/main.1a6005f5.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/4.df2c4260.chunk.js"
   },
   {
-    "revision": "2b600718c460bc5a57f1",
-    "url": "/static/js/main.b8da6097.chunk.js"
+    "revision": "c6e6f884023aac3002a7",
+    "url": "/static/js/main.3c29f14c.chunk.js"
   },
   {
     "revision": "2d821128d53e09db5ec0",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ee6539921d713482b8ccd4d0d23961bb",
     "url": "/static/media/Montserrat-Regular.ee653992.ttf"
+  },
+  {
+    "revision": "37d155e982499aec092d3f818643c5cc",
+    "url": "/static/media/agile.37d155e9.jpg"
   },
   {
     "revision": "c59720d63dc3595a12e1c7e641a1bfa5",
@@ -64,16 +68,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/developerActivity.59389695.svg"
   },
   {
-    "revision": "8ddf76a14a2e3ad3ba62b46d49a75a74",
-    "url": "/static/media/facebookLogo.8ddf76a1.png"
-  },
-  {
     "revision": "e79c639294c805688be731921368c8f8",
     "url": "/static/media/googleAssistantLogo.e79c6392.webp"
   },
   {
-    "revision": "35ef5e915631be2c31ccdff55b53db29",
-    "url": "/static/media/harvardLogo.35ef5e91.png"
+    "revision": "44cd491cb9984708c20864586f906eb0",
+    "url": "/static/media/highschool.44cd491c.jfif"
   },
   {
     "revision": "52be31441c8cf8a8a16bd7a228d428bf",
@@ -96,12 +96,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/saayaHealthLogo.25018d29.webp"
   },
   {
-    "revision": "3440939881da8339d1597e8d77cdf850",
-    "url": "/static/media/skill.34409398.svg"
+    "revision": "47d388c36f47d467fa87b62fb1978c25",
+    "url": "/static/media/school.47d388c3.png"
   },
   {
-    "revision": "3b758ef56d398145542e137daa28e392",
-    "url": "/static/media/stanfordLogo.3b758ef5.png"
+    "revision": "3440939881da8339d1597e8d77cdf850",
+    "url": "/static/media/skill.34409398.svg"
   },
   {
     "revision": "13780cdd0144cacdef25486e2c2503f8",
