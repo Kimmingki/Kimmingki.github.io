@@ -133,7 +133,7 @@ const educationInfo = {
     {
       schoolName: "학점은행제",
       logo: require("./assets/images/school.png"),
-      subHeader: "학점은행제를 통해 컴퓨터공학과 학사과정을 밟고 있습니다.",
+      subHeader: "학점은행제를 통해 컴퓨터공학 학사과정을 밟고 있습니다.",
       duration: "2021.07 ~ 2023.02(예정)"
       // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
@@ -171,19 +171,19 @@ const workExperiences = {
       role: "Web Developer",
       company: "애자일그로스",
       companylogo: require("./assets/images/agile.jpg"),
-      date: "2021.12 ~ 2022.06",
+      date: "2021.12 ~ 2022.06 (회사 재정난)",
       desc: "spring boot를 이용하여 기업 내 플랫폼 서비스를 담당하였습니다.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "플랫폼 주요 캠페인 중 하나를 담당하여 구현 및 서비스 진행",
+        "플랫폼 유지보수 및 기능구현"
       ]
     },
     {
       role: "현장 엔지니어",
       company: "넷식스솔루션",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      companylogo: require("./assets/images/netsyx.jpg"),
+      date: "2020.11 ~ 2021.07",
+      desc: "납품 솔루션 유지보수 및 서버 관리 업무를 담당하였습니다."
     }
   ]
 };
@@ -232,131 +232,130 @@ const bigProjects = {
 // Achievement Section
 // Include certificates, talks etc
 
-const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+// const achievementSection = {
+//   title: emoji("Achievements And Certifications 🏆 "),
+//   subtitle:
+//     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
-  achievementsCards: [
-    {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
-    },
-    {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
+//   achievementsCards: [
+//     {
+//       title: "Google Code-In Finalist",
+//       subtitle:
+//         "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+//       image: require("./assets/images/codeInLogo.webp"),
+//       footerLink: [
+//         {
+//           name: "Certification",
+//           url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+//         },
+//         {
+//           name: "Award Letter",
+//           url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+//         },
+//         {
+//           name: "Google Code-in Blog",
+//           url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+//         }
+//       ]
+//     },
+//     {
+//       title: "Google Assistant Action",
+//       subtitle:
+//         "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+//       image: require("./assets/images/googleAssistantLogo.webp"),
+//       footerLink: [
+//         {
+//           name: "View Google Assistant Action",
+//           url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+//         }
+//       ]
+//     },
 
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
+//     {
+//       title: "PWA Web App Developer",
+//       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+//       image: require("./assets/images/pwaLogo.webp"),
+//       footerLink: [
+//         {name: "Certification", url: ""},
+//         {
+//           name: "Final Project",
+//           url: "https://pakistan-olx-1.firebaseapp.com/"
+//         }
+//       ]
+//     }
+//   ],
+//   display: true // Set false to hide this section, defaults to true
+// };
 
 // Blogs Section
 
-const blogSection = {
-  title: "Blogs",
-  subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
-  blogs: [
-    {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
+// const blogSection = {
+//   title: "Blogs",
+//   subtitle:
+//     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+//   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+//   blogs: [
+//     {
+//       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+//       title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+//       description:
+//         "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+//     },
+//     {
+//       url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
+//       title: "Why REACT is The Best?",
+//       description:
+//         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+//     }
+//   ],
+//   display: true // Set false to hide this section, defaults to true
+// };
 
 // Talks Sections
 
-const talkSection = {
-  title: "TALKS",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-  ),
+// const talkSection = {
+//   title: "TALKS",
+//   subtitle: emoji(
+//     "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+//   ),
 
-  talks: [
-    {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
+//   talks: [
+//     {
+//       title: "Build Actions For Google Assistant",
+//       subtitle: "Codelab at GDG DevFest Karachi 2019",
+//       slides_url: "https://bit.ly/saadpasta-slides",
+//       event_url: "https://www.facebook.com/events/2339906106275053/"
+//     }
+//   ],
+//   display: true // Set false to hide this section, defaults to true
+// };
 
 // Podcast Section
 
-const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+// const podcastSection = {
+//   title: emoji("Podcast 🎙️"),
+//   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
-  // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
+//   // Please Provide with Your Podcast embeded Link
+//   podcast: [
+//     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+//   ],
+//   display: true // Set false to hide this section, defaults to true
+// };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  subtitle: "많은 관심 부탁드립니다!",
+  number: "+82-01025559568",
+  email_address: "a01050919568@gmail.com"
 };
 
 // Twitter Section
 
-const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
-};
+// const twitterDetails = {
+//   userName: "twitter", //Replace "twitter" with your twitter username without @
+//   display: true // Set true to display this section, defaults to false
+// };
 
 export {
   illustration,
@@ -369,10 +368,10 @@ export {
   workExperiences,
   openSource,
   bigProjects,
-  achievementSection,
-  blogSection,
-  talkSection,
-  podcastSection,
-  contactInfo,
-  twitterDetails
+  // achievementSection,
+  // blogSection,
+  // talkSection,
+  // podcastSection,
+  contactInfo
+  // twitterDetails
 };
