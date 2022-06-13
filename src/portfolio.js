@@ -21,8 +21,10 @@ const illustration = {
 
 const greeting = {
   username: "Kimminki",
-  title: "안녕하세요 김민기입니다.",
-  subTitle: emoji("이곳에 내 소개를 작성해야 해요"),
+  title: "안녕하세요",
+  subTitle: emoji(
+    "새롭게 도전하며 보다 나은 서비스를 제공하려 노력하는 백엔드 개발자 김민기입니다!"
+  ),
   // resumeLink:
   //   "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -49,13 +51,9 @@ const skillsSection = {
   title: "Skill",
   subTitle: "제가 사용해봤던 기술들이에요",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Spring boot를 이용한 플랫폼 서버 개발 및 유지보수"),
+    emoji("⚡ RestAPI를 이용한 서버 구축"),
+    emoji("⚡ SocketIO를 활용한 Chat 시스템")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -95,12 +93,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "Gulp",
+      fontAwesomeClassname: "fab fa-gulp"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "sql-database",
+      fontAwesomeClassname: "fas fa-database"
     },
     {
       skillName: "python",
@@ -109,6 +107,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -179,7 +181,7 @@ const workExperiences = {
       ]
     },
     {
-      role: "현장 엔지니어",
+      role: "Solution Engineer",
       company: "넷식스솔루션",
       companylogo: require("./assets/images/netsyx.jpg"),
       date: "2020.11 ~ 2021.07",
@@ -235,13 +237,11 @@ const achievementSection = {
     },
     {
       title: "정보처리산업기사",
-      subtitle: "학점은행제를 통해 초대졸 자격을 충족해 취득하였습니다.",
       image: require("./assets/images/information.jpg")
     },
 
     {
       title: "컴퓨터 활용능력 1급",
-      subtitle: "학점 및 액세스를 활용하기 위해 취득하였습니다.",
       image: require("./assets/images/computer.png")
     }
   ],
