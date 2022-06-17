@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "12fcff12e0ecf3047881254540efddb7",
+    "revision": "98a12fbd66325fc17524a2974d8985eb",
     "url": "/index.html"
   },
   {
-    "revision": "3b0485bff08a5e35a870",
+    "revision": "8254d8059d93b71ddffe",
     "url": "/static/css/3.df879eac.chunk.css"
   },
   {
-    "revision": "3eac052a045cf185ae71",
+    "revision": "d9b346711cd92fe26d52",
     "url": "/static/css/4.89cd3542.chunk.css"
   },
   {
-    "revision": "b32720d10f288e9561d9",
+    "revision": "3ee5a1f93c4584f25bba",
     "url": "/static/css/main.03908ce9.chunk.css"
   },
   {
-    "revision": "7a8456f6a31771004945",
-    "url": "/static/js/2.f3f7a6d7.chunk.js"
+    "revision": "34d0ee533a9475547927",
+    "url": "/static/js/2.b2a2ccd0.chunk.js"
   },
   {
     "revision": "b9941b26ce7f87a25d1a3bc0d5ae97bc",
-    "url": "/static/js/2.f3f7a6d7.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.b2a2ccd0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3b0485bff08a5e35a870",
-    "url": "/static/js/3.b58370af.chunk.js"
+    "revision": "8254d8059d93b71ddffe",
+    "url": "/static/js/3.264beec7.chunk.js"
   },
   {
-    "revision": "3eac052a045cf185ae71",
-    "url": "/static/js/4.9dc49e93.chunk.js"
+    "revision": "d9b346711cd92fe26d52",
+    "url": "/static/js/4.3d5f554e.chunk.js"
   },
   {
-    "revision": "b32720d10f288e9561d9",
-    "url": "/static/js/main.67d0cf24.chunk.js"
+    "revision": "3ee5a1f93c4584f25bba",
+    "url": "/static/js/main.71a16655.chunk.js"
   },
   {
-    "revision": "040697a3b78039d16962",
-    "url": "/static/js/runtime-main.bd9aa43d.js"
+    "revision": "896faa9294ef70524e5d",
+    "url": "/static/js/runtime-main.a8ceb1c3.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -50,10 +50,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5b662b19b8854b7710b7374df988bb13",
     "url": "/static/media/agile.5b662b19.jpg"
-  },
-  {
-    "revision": "b90ee448798058ccc4b2aba16c304a12",
-    "url": "/static/media/computer.b90ee448.png"
   },
   {
     "revision": "51cf7192327488da3d2a171280680c16",
