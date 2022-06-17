@@ -238,11 +238,6 @@ const achievementSection = {
     {
       title: "정보처리산업기사",
       image: require("./assets/images/information.jpg")
-    },
-
-    {
-      title: "컴퓨터 활용능력 1급",
-      image: require("./assets/images/computer.png")
     }
   ],
   display: true // Set false to hide this section, defaults to true
